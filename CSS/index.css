@@ -1,0 +1,81 @@
+#menu {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+#menu .list_item {
+  float: left;
+  width: 15%;
+}
+
+#menu .list_logo {
+  float: left;
+  width: 40%;
+}
+
+#menu li a {
+  display: block;
+  color: brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font: montserrat;
+}
+
+#menu li a:hover {
+  background-color: #993300;
+  color:white;
+ 
+}
+
+#logo_menu {
+	width: 280px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#principale {
+	width: 100%; height: 600px; top: 0; left: 0;
+    background: url("../foto/back2.png") no-repeat center top; z-index: -1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#ricerca {
+	float: right;
+	margin-top: 50px; margin-right:50px;
+	}
+	
+#barra {
+	border-radius: 8px;
+	height: 26px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#bottone_cerca {
+	background: url(../icon/cerca.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+	border: none;
+}
+
+.ico {
+	width: 32px;
+	margin-left: 30px;
+}
+
+.ico_table {
+	height:100px;
+}
